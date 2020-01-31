@@ -70,5 +70,22 @@ namespace Ch06Cart
             
             Session["Customer"] = customer;
         }
+
+        protected void SaveData(object sender, CommandEventArgs e)
+        {
+            if (Page.IsValid)
+            {
+                this.GetCustomerData();
+                switch (e.CommandName)
+                {
+                    case "Confirm":
+                        Response.Redirect("~/Confirmation.aspx");
+                        break;
+                    case "Continue":
+                        Response.Redirect("~/Order.aspx");
+                        break;
+                }
+            }
+        }
     }
 }

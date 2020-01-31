@@ -166,7 +166,8 @@
             <div class="form-group">
                 <div class="col-sm-12">
                     <asp:Button ID="btnCheckOut" runat="server" Text="Check Out" CssClass="btn"
-                        OnClick="btnCheckOut_Click" />
+                         CommandName="Confirm" OnCommand="SaveData" />
+                    <asp:Button ID="btnSaveContinue" runat="server" Text="Save and Continue Shopping" CssClass="btn" CommandName="Continue" OnCommand="SaveData" />
                     <asp:Button ID="btnCancel" runat="server" Text="Cancel Order" CssClass="btn"
                         CausesValidation="False" OnClick="btnCancel_Click" />
                     <asp:LinkButton ID="lbtnContinueShopping" runat="server" CssClass="btn"
