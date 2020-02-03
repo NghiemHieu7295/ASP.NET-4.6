@@ -27,6 +27,10 @@ namespace Ch04Cart
 
         private Product GetSelectedProduct()
         {
+            if (Trace.IsEnabled)
+            {
+                Trace.Warn("GetSelectedProduct", "Method is starting...");
+            }
             //get row from AccessDataSource based on value in dropdownlist
             DataView productsTable = (DataView)
                 SqlDataSource1.Select(DataSourceSelectArguments.Empty);
@@ -42,6 +46,11 @@ namespace Ch04Cart
             p.LongDescription = row["LongDescription"].ToString();
             p.UnitPrice = (decimal)row["UnitPrice"];
             p.ImageFile = row["ImageFile"].ToString();
+
+            if (Trace.IsEnabled)
+            {
+                Trace.Write("A new product has been created.");
+            }
             return p;
         }
 
