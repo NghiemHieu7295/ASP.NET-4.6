@@ -17,4 +17,5 @@ public class Customer
     public string ShippingCity { get; set; }
     public string ShippingState { get; set; }
     public string ShippingZip { get; set; }
+    public string BirthDate { get; set; }
 }

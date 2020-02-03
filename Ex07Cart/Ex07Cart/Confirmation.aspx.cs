@@ -19,6 +19,7 @@ namespace Ch07Cart
                 "    First name: " + customer.FirstName + "\n" +
                 "    Last name: " + customer.LastName + "\n" +
                 "    Phone number: " + customer.Phone + "\n" +
+                "    Date of birth: " + customer.BirthDate + "\n" +
                 "Billing address\n" +
                 "    Address: " + customer.Address + "\n" +
                 "    City: " + customer.City + "\n" +

@@ -48,6 +48,7 @@ namespace Ch07Cart
                 txtShipCity.Text = customer.ShippingCity;
                 ddlShipState.SelectedValue = customer.ShippingState;
                 txtShipZip.Text = customer.ShippingZip;
+                txtBirthday.Text = customer.BirthDate;
             }
         }
         private void GetCustomerData()
@@ -61,6 +62,7 @@ namespace Ch07Cart
             customer.City = txtCity.Text;
             customer.State = ddlState.SelectedValue;
             customer.Zip = txtZip.Text;
+            customer.BirthDate = txtBirthday.Text;
             
             if (chkSameAsBilling.Checked)
             {

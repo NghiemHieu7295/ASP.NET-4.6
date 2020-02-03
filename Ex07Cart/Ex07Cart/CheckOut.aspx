@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/site.css" rel="stylesheet" />
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 </head>
 <body>
@@ -84,18 +84,31 @@
             <div class="form-group">
                 <label class="control-label col-sm-3">Phone Number:</label>
                 <div class="col-sm-5">
-                    <asp:TextBox ID="txtPhone" runat="server" CssClass="form-control" TextMode="Phone"></asp:TextBox>
+                    <asp:TextBox ID="txtPhone" runat="server" CssClass="form-control" TextMode="Phone">999-999-9999</asp:TextBox>
                 </div>
                 <div class="col-sm-4">
                     <asp:RequiredFieldValidator ID="rfvPhoneNumber" runat="server" 
                         ErrorMessage="Phone number" CssClass="text-danger"
-                        Display="Dynamic" ControlToValidate="txtPhone">Required</asp:RequiredFieldValidator>
+                        Display="Dynamic" ControlToValidate="txtPhone" InitialValue="999-999-9999">Required</asp:RequiredFieldValidator>
                     <asp:RegularExpressionValidator ID="revPhoneNumber" runat="server" 
                         ErrorMessage="Phone number" CssClass="text-danger"
                         Display="Dynamic" ValidationExpression="((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}"
                         ControlToValidate="txtPhone">Use this format: 123-456-7890</asp:RegularExpressionValidator>
                 </div>
-            </div>        
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-3">Date of birth:</label>
+                <div class="col-sm-5">
+                    <asp:TextBox ID="txtBirthday" runat="server" CssClass="form-control">mm/dd/yyyy</asp:TextBox>
+                </div>
+                <div class="col-sm-4">
+                    <asp:RegularExpressionValidator ID="revBirthday" runat="server" ControlToValidate="txtBirthday" CssClass="text-danger" 
+                        Display="Dynamic" ValidationExpression="[01]?\d\/[0-3]\d\/\d{4}" ErrorMessage="Date of birth">
+                        Use this format: mm/dd/yyyy
+                    </asp:RegularExpressionValidator>
+                </div>
+            </div>
 
             <%-- billing info --%>
             <h3>Billing Address</h3>
@@ -153,6 +166,10 @@
                     <asp:RequiredFieldValidator ID="rfvZip" runat="server" 
                         ErrorMessage="Billing zip code" Text="Required" CssClass="text-danger" 
                         Display="Dynamic" ControlToValidate="txtZip"></asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="revBillZip" runat="server" ControlToValidate="txtZip" Display="Dynamic" 
+                        ErrorMessage="Billing zip code" CssClass="text-danger" ValidationExpression="\d{5}(-\d{4})?">
+                        Use this format: 99999 or 99999-9999
+                    </asp:RegularExpressionValidator>
                 </div>
             </div>  
 
