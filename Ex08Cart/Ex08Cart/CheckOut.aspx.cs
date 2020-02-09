@@ -12,16 +12,36 @@ namespace Ch08Cart
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(!IsPostBack)
+            {
+                //HttpCookie firstName = Request.Cookies["FirstName"];
+                //if (firstName != null)
+                //    txtFirstName.Text = firstName.Value;
 
+                //HttpCookie lastName = Request.Cookies["LastName"];
+                //if (lastName != null)
+                //    txtLastName.Text = lastName.Value;
+
+                var firstName = Session["FirstName"];
+                if (firstName != null)
+                    txtFirstName.Text = firstName.ToString();
+
+                var lastName = Session["LastName"];
+                if (lastName != null)
+                    txtLastName.Text = lastName.ToString();
+            }
         }
 
         protected void btnContinue_Click(object sender, EventArgs e)
         {
             if (IsValid)
             {
-                DateTime expiry = DateTime.Now.AddMinutes(5);
-                SetCookie("FirstName", txtFirstName.Text, expiry);
-                SetCookie("LastName", txtLastName.Text, expiry);
+                //DateTime expiry = DateTime.Now.AddMinutes(5);
+                //SetCookie("FirstName", txtFirstName.Text, expiry);
+                //SetCookie("LastName", txtLastName.Text, expiry);
+
+                Session["FirstName"] = txtFirstName.Text;
+                Session["LastName"] = txtLastName.Text;
             }
             Response.Redirect("~/Order.aspx");
         }

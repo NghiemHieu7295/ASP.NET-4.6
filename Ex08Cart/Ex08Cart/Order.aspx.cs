@@ -21,11 +21,14 @@ namespace Ch08Cart
             {
                 ddlProducts.DataBind();
 
-                Application.Lock();
-                    int hitCount = Convert.ToInt32(Application["HitCount"]);
-                    hitCount++;
-                    Application["HitCount"] = hitCount.ToString();
-                Application.UnLock();
+                //Application.Lock();
+                //    int hitCount = Convert.ToInt32(Application["HitCount"]);
+                //    hitCount++;
+                //    Application["HitCount"] = hitCount.ToString();
+                //Application.UnLock();
+                int hitCount = Convert.ToInt32(Cache["HitCount"]);
+                hitCount++;
+                Cache.Insert("HitCount", hitCount, null, DateTime.Now.AddMinutes(5), Cache.NoSlidingExpiration);
 
                 lblPageHits.Text = hitCount.ToString();
             }
@@ -38,9 +41,12 @@ namespace Ch08Cart
             imgProduct.ImageUrl = "Images/Products/" + selectedProduct.ImageFile;
 
             // get firstname cookie and set welcome message if it exists
-            HttpCookie firstName = Request.Cookies["FirstName"];
+            //HttpCookie firstName = Request.Cookies["FirstName"];
+            //if (firstName != null)
+            //    lblWelcome.Text = "<h4>welcome back, " + firstName.Value + "!</h4>";
+            var firstName = Session["FirstName"];
             if (firstName != null)
-                lblWelcome.Text = "<h4>welcome back, " + firstName.Value + "!</h4>";
+                lblWelcome.Text = "<h4>welcome back, " + firstName.ToString() + "!</h4>";
 
             // get timestamp from cache, then display it
             // or set timestamp in cache to now plus 10, then display
