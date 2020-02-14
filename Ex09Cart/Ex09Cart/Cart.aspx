@@ -34,3 +34,6 @@
         </div>
     </div><%-- end of row 2 --%>
 </asp:Content>
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="footerPlaceHolder">
+    <asp:Label ID="lblDaysUntilHalloween" runat="server">Your Shopping Cart</asp:Label>
+</asp:Content>

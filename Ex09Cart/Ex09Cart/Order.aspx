@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Order.aspx.cs" Inherits="Ch09Cart.Order" %>
+﻿<%@ Page Title="Your Shopping Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Order.aspx.cs" Inherits="Ch09Cart.Order" %>
 <%@ MasterType VirtualPath="~/Site.Master" %>
 
 <asp:Content ID="mainContent" ContentPlaceHolderID="mainPlaceholder" runat="server">
@@ -58,6 +58,4 @@
             </div>
         </div>
     </div><%-- end of row 2 --%>
-</asp:Content>
-<asp:Content ID="footerContent" runat="server" contentplaceholderid="footerPlaceHolder">
 </asp:Content>

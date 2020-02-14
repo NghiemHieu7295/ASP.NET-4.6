@@ -13,7 +13,8 @@ namespace Ch09Cart
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Master.HeaderText = "Your Shopping Cart";
+            //Master.HeaderText = "Your Shopping Cart";
+            Master.FormClass = "form-horizontal";
 
             cart = CartItemList.GetCart();
             if (!IsPostBack)
@@ -58,7 +59,7 @@ namespace Ch09Cart
 
         protected void btnCheckOut_Click(object sender, EventArgs e)
         {
-            lblMessage.Text = "Sorry, that function hasn't been implemented yet.";
+            Response.Redirect("~/CheckOut.aspx");
         }
     }
 }

@@ -67,6 +67,15 @@ namespace Ch09Cart {
         protected global::System.Web.UI.WebControls.Button btnCheckOut;
         
         /// <summary>
+        /// lblDaysUntilHalloween control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDaysUntilHalloween;
+        
+        /// <summary>
         /// Master property.
         /// </summary>
         /// <remarks>

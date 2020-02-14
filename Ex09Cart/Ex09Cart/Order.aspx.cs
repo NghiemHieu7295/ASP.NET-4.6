@@ -23,6 +23,8 @@ namespace Ch09Cart
             lblLongDescription.Text = selectedProduct.LongDescription;
             lblUnitPrice.Text = selectedProduct.UnitPrice.ToString("c") + " each";
             imgProduct.ImageUrl = "Images/Products/" + selectedProduct.ImageFile;
+            Master.HeaderText = "Your Shopping Page";
+            Master.FormClass = "form-horizontal";
         }
 
         private Product GetSelectedProduct()

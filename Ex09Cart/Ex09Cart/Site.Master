@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="container">
-    <form id="form1" runat="server" class="form-horizontal">
+    <form id="form1" runat="server" class="form-vertical">
 
         <header class="jumbotron"><%-- image set in site.css --%></header>
         <div class="row">
