@@ -26,7 +26,7 @@
             <div class="form-group"><%-- buttons --%>
                 <div class="col-sm-12">
                     <asp:Button ID="btnContinue" runat="server"
-                        PostBackUrl="~/Order.aspx" Text="Continue Shopping" CssClass="btn btn-default" />
+                        PostBackUrl="~/Order.aspx" Text="Continue Shopping" CssClass="btn btn-primary" />
                     <asp:Button ID="btnCheckOut" runat="server" Text="Check Out"  
                         onclick="btnCheckOut_Click" CssClass="btn btn-default" />
                 </div>

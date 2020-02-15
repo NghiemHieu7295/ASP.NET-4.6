@@ -18,3 +18,23 @@ C:\aspnet46_cs\exercises\Ex10Cart_2\Ex10Cart_2\bin\Microsoft.CodeDom.Providers.D
 C:\aspnet46_cs\exercises\Ex10Cart_2\Ex10Cart_2\obj\Debug\Ex10Cart_2.csprojResolveAssemblyReference.cache
 C:\aspnet46_cs\exercises\Ex10Cart_2\Ex10Cart_2\obj\Debug\Ex10Cart_2.dll
 C:\aspnet46_cs\exercises\Ex10Cart_2\Ex10Cart_2\obj\Debug\Ex10Cart_2.pdb
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\csc.exe
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\System.Collections.Immutable.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\System.Reflection.Metadata.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\vbc.exe
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\VBCSCompiler.exe
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\roslyn\VBCSCompiler.exe.config
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\Ex10Cart_2.dll.config
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\Ex10Cart_2.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\Ex10Cart_2.pdb
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\obj\Debug\Ex10Cart_2.csprojResolveAssemblyReference.cache
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\obj\Debug\Ex10Cart_2.dll
+D:\murach\ASP.NET 4.6\exercises\Ex10Cart_2\Ex10Cart_2\obj\Debug\Ex10Cart_2.pdb

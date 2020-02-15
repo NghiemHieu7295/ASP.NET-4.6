@@ -4,7 +4,7 @@
 <asp:Content ID="mainContent" ContentPlaceHolderID="mainPlaceholder" runat="server">
     <div class="row">
         <div class="col-xs-12 table-responsive">
-            <table>
+            <table class="table table-bordered table-striped">
                 <thead>
                     <tr>
                         <th>Type</th>

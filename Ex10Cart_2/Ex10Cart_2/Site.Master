@@ -52,7 +52,7 @@
                     </asp:ContentPlaceHolder>
                 </div>
             </main>
-            <footer>
+            <footer class="text-center text-capitalize">
                 <p>copyright &copy; the halloween super store, all rights reserved.</p>
             </footer>
 

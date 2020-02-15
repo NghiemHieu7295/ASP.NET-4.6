@@ -4,7 +4,16 @@
 <asp:Content ID="mainContent" ContentPlaceHolderID="mainPlaceholder" runat="server">
     <div class="row">
         <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
-            
+            <ItemTemplate>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src='Images/Products/<%# Eval("ImageFile") %>' alt="<%# Eval("Name") %>"/>
+                        <div class="caption">
+                            <h4 class="text-center"><%# Eval("Name") %></h4>
+                        </div>
+                    </div>
+                </div>
+            </ItemTemplate>
         </asp:Repeater>
     </div>
 

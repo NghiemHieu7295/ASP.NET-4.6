@@ -51,7 +51,7 @@
             <div class="form-group">
                 <div class="col-sm-12">
                     <asp:Button ID="btnAdd" runat="server" Text="Add to Cart" 
-                        onclick="btnAdd_Click" CssClass="btn btn-default" />
+                        onclick="btnAdd_Click" CssClass="btn btn-primary" />
                     <asp:Button ID="btnCart" runat="server" Text="Go to Cart" 
                         PostBackUrl="~/Cart.aspx" CausesValidation="False" CssClass="btn btn-default" />
                 </div>

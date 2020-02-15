@@ -3,11 +3,11 @@
 
 <asp:Content ID="mainContent" ContentPlaceHolderID="mainPlaceholder" runat="server">
     
-    <ul>
-        <li>We are the largest Halloween store on the web!</li>
-        <li>We have an extensive inventory for all your Halloween needs.</li>
-        <li>If you don't see it here, we can special order.</li>
-        <li>We take all major credit cards.</li>
-        <li>Spooktaculous for over 25 years!</li>
+    <ul class="list-group">
+        <li class="list-group-item">We are the largest Halloween store on the web!</li>
+        <li class="list-group-item">We have an extensive inventory for all your Halloween needs.</li>
+        <li class="list-group-item">If you don't see it here, we can special order.</li>
+        <li class="list-group-item">We take all major credit cards.</li>
+        <li class="list-group-item">Spooktaculous for over 25 years!</li>
     </ul>
 </asp:Content>

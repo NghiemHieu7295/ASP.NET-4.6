@@ -39,6 +39,10 @@ nav li .glyphicon {
     margin-right: 0.5em;
 }
 
+.list-group li:nth-child(odd) {
+    background-color: lightgray;
+}
+
 /*** Elements ***/
 footer {
     padding-top: 1em;
