@@ -53,7 +53,7 @@
                     <asp:Button ID="btnAdd" runat="server" Text="Add to Cart" 
                         onclick="btnAdd_Click" CssClass="btn" />
                     <asp:Button ID="btnCart" runat="server" Text="Go to Cart" 
-                        PostBackUrl="~/Cart.aspx" CausesValidation="False" CssClass="btn" />
+                        PostBackUrl="~/Shop/Cart" CausesValidation="False" CssClass="btn" />
                 </div>
             </div>
         </div>

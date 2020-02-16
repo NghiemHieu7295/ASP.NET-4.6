@@ -38,3 +38,25 @@ C:\aspnet46_cs\exercises\Ex11Cart\Ex11Cart\bin\Microsoft.CodeDom.Providers.DotNe
 C:\aspnet46_cs\exercises\Ex11Cart\Ex11Cart\obj\Debug\Ex11Cart.csprojResolveAssemblyReference.cache
 C:\aspnet46_cs\exercises\Ex11Cart\Ex11Cart\obj\Debug\Ex11Cart.dll
 C:\aspnet46_cs\exercises\Ex11Cart\Ex11Cart\obj\Debug\Ex11Cart.pdb
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\csc.exe
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\System.Collections.Immutable.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\System.Reflection.Metadata.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\vbc.exe
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\VBCSCompiler.exe
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\roslyn\VBCSCompiler.exe.config
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\Ex11Cart.dll.config
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\Ex11Cart.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\Ex11Cart.pdb
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\obj\Debug\Ex11Cart.csprojResolveAssemblyReference.cache
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\obj\Debug\Ex11Cart.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\obj\Debug\Ex11Cart.pdb
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\murach\ASP.NET 4.6\exercises\Ex11Cart\Ex11Cart\bin\Microsoft.AspNet.FriendlyUrls.xml

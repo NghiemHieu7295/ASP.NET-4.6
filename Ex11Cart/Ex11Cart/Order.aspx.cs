@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
-//using Microsoft.AspNet.FriendlyUrls;
+using Microsoft.AspNet.FriendlyUrls;
 
 namespace Ch11Cart
 {
@@ -16,21 +16,35 @@ namespace Ch11Cart
             if (!IsPostBack)
             {
                 ddlProducts.DataBind();
+                string productId = "";
+                if (RouteData.Values.ContainsKey("productID"))
+                    productId = RouteData.Values["productID"].ToString();
+                else
+                {
+                    var segments = Request.GetFriendlyUrlSegments();
+                    if (segments.Count > 0)
+                        productId = segments[0];
+                }
+
+                if (productId == "")
+                    Reload();
+                else
+                    ShowSelectedProduct(productId);
             }
-			ShowSelectedProduct(ddlProducts.SelectedValue);
+			//ShowSelectedProduct(ddlProducts.SelectedValue);
         }
 
         protected void ddlProducts_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            Reload();
         }
 
-        //private void Reload()
-        //{
-        //    string id = ddlProducts.SelectedValue;
-        //    string url = FriendlyUrl.Href("~/Order", id);
-        //    Response.Redirect(url);
-        //}
+        private void Reload()
+        {
+            string id = ddlProducts.SelectedValue;
+            string url = FriendlyUrl.Href("~/Shop/Order", id);
+            Response.Redirect(url);
+        }
 
         private void ShowSelectedProduct(string id)
         {
@@ -82,11 +96,8 @@ namespace Ch11Cart
                 {
                     cartItem.AddQuantity(Convert.ToInt32(txtQuantity.Text));
                 }
-				Response.Redirect("~/Cart.aspx");
+				Response.Redirect("~/Shop/Cart");
             }
         }
-
-        
-
     }
 }
