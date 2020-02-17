@@ -13,5 +13,11 @@ namespace Ch14CustomerList
         {
 
         }
+
+        protected void grdCustomers_PreRender(object sender, EventArgs e)
+        {
+            grdCustomers.HeaderRow.TableSection = TableRowSection.TableHeader;
+            //grdCustomers.FooterRow.TableSection = TableRowSection.TableFooter;
+        }
     }
 }

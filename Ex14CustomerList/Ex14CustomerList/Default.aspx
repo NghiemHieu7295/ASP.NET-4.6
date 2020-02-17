@@ -17,7 +17,32 @@
     <main class="row">
         <form id="form1" runat="server">
             <div class="col-xs-12 table-responsive">
-
+                <asp:GridView ID="grdCustomers" runat="server" DataSourceID="SqlDataSource1"
+                    CssClass="table table-bordered table-striped table-condensed" OnPreRender="grdCustomers_PreRender" AllowPaging="True" PageSize="8" AllowSorting="True">
+                    <Columns>
+                        <asp:BoundField DataField="LastName" HeaderText="LastName" 
+                            SortExpression="LastName"> 
+                            <ItemStyle CssClass="col-xs-3" />
+                        </asp:BoundField>
+                        <asp:BoundField DataField="FirstName" HeaderText="FirstName"> 
+                            <ItemStyle CssClass="col-xs-3" />
+                        </asp:BoundField>
+                        <asp:BoundField DataField="State" HeaderText="State" 
+                            SortExpression="State, City"> 
+                            <ItemStyle CssClass="col-xs-2" />
+                        </asp:BoundField>
+                        <asp:BoundField DataField="City" HeaderText="City">
+                            <ItemStyle CssClass="col-xs-4" />
+                        </asp:BoundField>
+                    </Columns>
+                    <HeaderStyle CssClass="bg-halloween" />
+                    <PagerSettings Mode="NextPreviousFirstLast"/>
+                    <PagerStyle CssClass="pagerStyle" BackColor="#8C8C8C" HorizontalAlign="Center"/>
+                </asp:GridView>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                    ConnectionString='<%$ ConnectionStrings:HalloweenConnectionString %>' 
+                    SelectCommand="SELECT [LastName], [FirstName], [State], [City] FROM [Customers] ORDER BY [LastName]">
+                </asp:SqlDataSource>
             </div>  
         </form>
     </main>
