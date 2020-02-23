@@ -73,6 +73,5 @@ namespace Ch15ProductMaintenance
         {
             return "Another user may have updated that category. Please try again";
         }
-        
     }
 }
