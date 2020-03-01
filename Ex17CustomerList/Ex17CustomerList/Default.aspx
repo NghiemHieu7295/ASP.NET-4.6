@@ -19,6 +19,10 @@
             <div class="form-group">
                 <label id="lblState" class="col-xs-4 col-sm-offset-1 col-sm-3 control-label">
                     Choose a state:</label>
+                <asp:DropDownList ID="ddlStates" runat="server" AutoPostBack="True" DataSourceID="ObjectDataSource1" DataTextField="StateName" DataValueField="StateCode">
+                </asp:DropDownList>
+                <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" OldValuesParameterFormatString="original_{0}" SelectMethod="GetAllStates" TypeName="CustomerDB">
+                </asp:ObjectDataSource>
                 <div class="col-xs-8 col-sm-5">
 
                 </div>
@@ -26,7 +30,24 @@
 
             <div class="form-group">
                 <div class="col-xs-12 col-sm-offset-1 col-sm-9 table-responsive">
-
+                    <asp:GridView ID="grdCustomers" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource2" OnPreRender="grdCustomers_PreRender">
+                        <Columns>
+                            <asp:BoundField DataField="LastName" HeaderText="Last Name">
+                                <ItemStyle CssClass="col-xs-3"/>
+                            </asp:BoundField>
+                            <asp:BoundField DataField="FirstName" HeaderText="First Name">
+                                <ItemStyle CssClass="col-xs-3"/>
+                            </asp:BoundField>
+                            <asp:BoundField DataField="PhoneNumber" HeaderText="Phone Number">
+                                <ItemStyle CssClass="col-xs-3"/>
+                            </asp:BoundField>
+                        </Columns>
+                    </asp:GridView>
+                    <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" OldValuesParameterFormatString="original_{0}" SelectMethod="GetCustomersByState" TypeName="CustomerDB">
+                        <SelectParameters>
+                            <asp:ControlParameter ControlID="ddlStates" Name="state" PropertyName="SelectedValue" Type="String" />
+                        </SelectParameters>
+                    </asp:ObjectDataSource>
                 </div>  
             </div>
 

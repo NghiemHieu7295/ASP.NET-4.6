@@ -21,7 +21,7 @@
                     Choose a state:</label>
                 <div class="col-xs-8 col-sm-5">
                     <asp:DropDownList ID="ddlState" runat="server" AutoPostBack="True"  
-                        DataTextField="StateName" DataValueField="StateCode"> 
+                        DataTextField="StateName" DataValueField="StateCode" ItemType="Ex18CustomerList.Models.State" SelectMethod="ddlStates_GetData"> 
                     </asp:DropDownList>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                 <div class="col-xs-12 col-sm-offset-1 col-sm-9 table-responsive">
                     <asp:GridView ID="grdCustomers" runat="server" 
                         AutoGenerateColumns="False" OnPreRender="grdCustomers_PreRender" 
-                        CssClass="table table-bordered table-striped table-condensed">
+                        CssClass="table table-bordered table-striped table-condensed" ItemType="Ex18CustomerList.Models.Customer" SelectMethod="grdCustomers_GetData">
                         <Columns>
                             <asp:BoundField DataField="LastName" HeaderText="Last Name">
                                 <itemStyle CssClass="col-xs-3" />

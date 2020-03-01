@@ -13,5 +13,10 @@ namespace Ch17ProductList
         {
 
         }
+
+        protected void grdCustomers_PreRender(object sender, EventArgs e)
+        {
+            grdCustomers.HeaderRow.TableSection = TableRowSection.TableHeader;
+        }
     }
 }
