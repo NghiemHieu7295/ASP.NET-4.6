@@ -1,0 +1,6 @@
+C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24Service_WCF\Ch24Service_WCF\obj\Debug\Ch24Service_WCF.csprojResolveAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24Service_WCF\Ch24Service_WCF\bin\Ch24Service_WCF.dll.config
+C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24Service_WCF\Ch24Service_WCF\bin\Ch24Service_WCF.dll
+C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24Service_WCF\Ch24Service_WCF\bin\Ch24Service_WCF.pdb
+C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24Service_WCF\Ch24Service_WCF\obj\Debug\Ch24Service_WCF.dll
+C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24Service_WCF\Ch24Service_WCF\obj\Debug\Ch24Service_WCF.pdb

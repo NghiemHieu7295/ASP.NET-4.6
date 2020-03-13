@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0c03749f-d08b-4bcc-a4d2-e674aab60550" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52987/CategoryService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CategoryService.xsd" MetadataType="Schema" ID="e59785a0-5481-40d0-a9ed-7c208c482d8e" SourceId="1" SourceUrl="http://localhost:52987/CategoryService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CategoryService.wsdl" MetadataType="Wsdl" ID="0277837f-1161-4161-8314-6953c47f51ab" SourceId="1" SourceUrl="http://localhost:52987/CategoryService.svc?wsdl" />
+    <MetadataFile FileName="CategoryService1.xsd" MetadataType="Schema" ID="a8107a40-88e5-4066-906d-199dde927d4f" SourceId="1" SourceUrl="http://localhost:52987/CategoryService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CategoryService2.xsd" MetadataType="Schema" ID="6c307ad1-d546-430e-a90b-82304a46bdec" SourceId="1" SourceUrl="http://localhost:52987/CategoryService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CategoryService.disco" MetadataType="Disco" ID="249e1912-e9ce-4687-9458-77d6589bda12" SourceId="1" SourceUrl="http://localhost:52987/CategoryService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
