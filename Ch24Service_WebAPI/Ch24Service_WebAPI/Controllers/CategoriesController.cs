@@ -1,19 +1,18 @@
-﻿using Ch24Service_WebAPI.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Ch24Service_WebAPI.Models;
 using System.Web.Http.Cors;
 
 namespace Ch24Service_WebAPI.Controllers
 {
-    [EnableCors(origins:"http://localhost:54214/", headers:"*", methods:"*")]
+    [EnableCors(origins: "http://localhost:51022", headers: "*", methods: "*")]
     public class CategoriesController : ApiController
     {
         CategoryDB data;
-
         public CategoriesController()
         {
             this.data = new CategoryDB();
@@ -45,7 +44,7 @@ namespace Ch24Service_WebAPI.Controllers
         }
 
         // PUT(Update): api/categories/masks
-        public int PutCategory(string id, [FromBody]Category value)
+        public int PutCategory(string id, Category value)
         {
             value.CategoryID = id;
             return data.UpdateCategory(value);
@@ -54,7 +53,7 @@ namespace Ch24Service_WebAPI.Controllers
         // DELETE: api/categories/masks
         public int DeleteCategory(string id)
         {
-            Category value = new Category() { CategoryID = id };
+            Category value = new Category() { CategoryID = id};
             return data.DeleteCategory(value);
         }
     }

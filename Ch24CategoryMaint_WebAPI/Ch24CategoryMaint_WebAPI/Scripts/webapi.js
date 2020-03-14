@@ -1,4 +1,4 @@
-﻿var api = "http://localhost:53846/api/categories/";
+﻿var api = "http://localhost:50300/api/categories/";
 
 $(document).ready(function () {
     displayCategories();
@@ -7,7 +7,6 @@ $(document).ready(function () {
         findCategory($(this).attr("href"));
     });
 });
-
 function displayCategories() {
     $.getJSON(api, function (data) {
         var rows = "";
@@ -17,26 +16,23 @@ function displayCategories() {
             rows += "<td>" + val.ShortName + "</td>";
             rows += "<td>" + val.LongName + "</td></tr>";
         });
-
         $('#categories > tbody tr').remove();
         $('#categories > tbody').append(rows);
         clearAll();
     })
     .fail(showError);
 };
-
 function findCategory(href) {
     $('#message').html("Finding...");
     $.getJSON(href, function (data) {
         $('#id').val(data.CategoryID);
-        $('#id').attr("disabled", "disabled");
+        $("#id").attr("disabled", "disabled");
         $('#short').val(data.ShortName);
         $('#long').val(data.LongName);
         $('#message').text("");
     })
     .fail(showError);
 };
-
 function insertCat() {
     $('#message').text("Inserting...");
     $.ajax({
@@ -48,7 +44,6 @@ function insertCat() {
         error: showError
     });
 };
-
 function updateCat() {
     $('#message').text("Updating...");
     $.ajax({
@@ -60,7 +55,6 @@ function updateCat() {
         error: showError
     });
 };
-
 function deleteCat() {
     $('#message').text("Deleting...");
     $.ajax({
@@ -72,7 +66,6 @@ function deleteCat() {
         error: showError
     });
 };
-
 function showError(request, status, error) {
     try {
         var response = JSON.parse(request.responseText);
@@ -81,7 +74,6 @@ function showError(request, status, error) {
         $('#message').text("An error occurred - unable to contact the server.");
     }
 };
-
 function clearAll() {
     $('#id').val("");
     $("#id").removeAttr("disabled");

@@ -3,14 +3,14 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
+<head runat="server">
     <title>Chapter24: Category Maintenance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/site.css" rel="stylesheet" />
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/webapi.js"></script>
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/webapi.js"></script>
 </head>
 <body>
     <div class="container">
@@ -37,13 +37,13 @@
                     <div id="details" class="col-sm-6">
                         <input type="hidden" id="orig_id"/>
                         <div class="form-group">
-                            <label class="control-label">Category ID</label>
+                            <label class="control-label">ID</label>
                             <input type="text" id="id" name="CategoryID" class="form-control"/>
                         </div>
 
                         <div class="form-group">
                             <label class="control-label">Short Name</label>
-                            <input type="text" id="short" name="ShortName" class="form-control" />
+                            <input type="text" id="short" name="ShortName" class="form-control"/>
                         </div>
 
                         <div class="form-group">

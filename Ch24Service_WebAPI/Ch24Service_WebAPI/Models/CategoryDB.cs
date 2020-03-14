@@ -36,6 +36,35 @@ namespace Ch24Service_WebAPI.Models
             return categoryList;
         }
 
+        public List<Category> GetCategoriesByShortName(string name)
+        {
+            List<Category> categoryList = new List<Category>();
+            string sql = "SELECT CategoryID, ShortName, LongName "
+                + "FROM Categories "
+                + "WHERE ShortName = @ShortName "
+                + "ORDER BY LongName";
+            using (SqlConnection con = new SqlConnection(GetConnectionString()))
+            {
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    cmd.Parameters.AddWithValue("ShortName", name);
+                    con.Open();
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    Category category;
+                    while (dr.Read())
+                    {
+                        category = new Category();
+                        category.CategoryID = dr["CategoryID"].ToString();
+                        category.ShortName = dr["ShortName"].ToString();
+                        category.LongName = dr["LongName"].ToString();
+                        categoryList.Add(category);
+                    }
+                    dr.Close();
+                }
+            }
+            return categoryList;
+        }
+
         public Category GetCategoryById(string id)
         {
             Category category = new Category();
@@ -61,35 +90,6 @@ namespace Ch24Service_WebAPI.Models
                 }
             }
             return category;
-        }
-
-        public List<Category> GetCategoriesByShortName(string shortName)
-        {
-            List<Category> categoryList = new List<Category>();
-            string sql = "SELECT CategoryID, ShortName, LongName "
-                + "FROM Categories "
-                + "WHERE ShortName = @ShortName "
-                + "ORDER BY LongName";
-            using (SqlConnection con = new SqlConnection(GetConnectionString()))
-            {
-                using (SqlCommand cmd = new SqlCommand(sql, con))
-                {
-                    cmd.Parameters.AddWithValue("ShortName", shortName);
-                    con.Open();
-                    SqlDataReader dr = cmd.ExecuteReader();
-                    Category category;
-                    while (dr.Read())
-                    {
-                        category = new Category();
-                        category.CategoryID = dr["CategoryID"].ToString();
-                        category.ShortName = dr["ShortName"].ToString();
-                        category.LongName = dr["LongName"].ToString();
-                        categoryList.Add(category);
-                    }
-                    dr.Close();
-                }
-            }
-            return categoryList;
         }
 
         public int InsertCategory(Category category)

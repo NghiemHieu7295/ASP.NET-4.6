@@ -1,28 +1,33 @@
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\csc.exe
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\vbc.exe
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\VBCSCompiler.exe
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Ch24CategoryMaint_WebAPI.dll.config
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Ch24CategoryMaint_WebAPI.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Ch24CategoryMaint_WebAPI.pdb
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Newtonsoft.Json.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\System.Net.Http.Formatting.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\System.Web.Cors.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\System.Web.Http.Cors.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\System.Web.Http.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Newtonsoft.Json.xml
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\System.Net.Http.Formatting.xml
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\System.Web.Http.xml
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\System.Web.Http.Cors.xml
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\obj\Debug\Ch24CategoryMaint_WebAPI.dll
-C:\Users\Ominext\Documents\Hieu\Books\ASP.NET4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\obj\Debug\Ch24CategoryMaint_WebAPI.pdb
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\ApplicationInsights.config
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\csc.exe
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\vbc.exe
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\VBCSCompiler.exe
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Ch24CategoryMaint_WebAPI.dll.config
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Ch24CategoryMaint_WebAPI.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Ch24CategoryMaint_WebAPI.pdb
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.Web.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.ApplicationInsights.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.Web.xml
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.ApplicationInsights.xml
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\obj\Debug\Ch24CategoryMaint_WebAPI.csprojResolveAssemblyReference.cache
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\obj\Debug\Ch24CategoryMaint_WebAPI.dll
+D:\murach\ASP.NET 4.6\exercises\Ch24CategoryMaint_WebAPI\Ch24CategoryMaint_WebAPI\obj\Debug\Ch24CategoryMaint_WebAPI.pdb
